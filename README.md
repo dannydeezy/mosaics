@@ -9,7 +9,7 @@ The first 512 inscriptions that satisfy the following rules will be recognized a
 
 - Earnings from initial sale must be pledged to holders of the tile inscriptions in the mosaic, with 5% donated to Ord core dev fund
 
-## How to generating a mosaic
+## How to generate a mosaic
 ```
 git clone https://github.com/dannydeezy/mosaics
 cd mosaics
