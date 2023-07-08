@@ -17,7 +17,7 @@ python3 download-inscriptions.py
 python3 mosaic.py <YOUR_IMAGE> <LIST_OF_COLLECTION_SLUGS_TO_USE_AS_TILES> "Name of Mosaic"
 ```
 
-Examples:
+## Examples:
 ```
 python3 mosaic.py ../frogs/coolfrog.webp bitcoin-frogs "We Are All Frogtoshi"
 python3 mosaic.py ~/Downloads/MidjourneyArt.jpg  astral-babes,astralchads "Mother Gaia"
