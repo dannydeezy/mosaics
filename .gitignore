@@ -1,0 +1,9 @@
+.idea
+images/*
+ENV
+*.jpg
+*.jpeg
+mosaic.html
+mosaic.jpeg
+preview-do-not-inscribe.html
+__pycache__
