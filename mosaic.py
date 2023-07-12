@@ -9,7 +9,7 @@ from util import dash_to_camelcase
 
 # Change these config parameters to suit your needs...
 NUM_TILES_PER_ROW = 100
-RANDOM_RANGE = 10
+RANDOM_RANGE = 0
 REPEAT = 'ALL_INCLUDED' # 'STRICT_NO', 'MINIMIZED', 'ALL_INCLUDED', 'OK',
 TILE_SIZE      = 50		# height/width of mosaic tiles in pixels
 TILE_MATCH_RES = 8		# tile matching resolution (higher values give better fit but require more processing)

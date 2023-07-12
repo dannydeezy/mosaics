@@ -49,6 +49,9 @@ def download_inscriptions(slugs):
         print(slug + ' ' + str(len(trimmed_ids)))
         id_chunks = [trimmed_ids[i:i + 5000] for i in range(0, len(trimmed_ids), 5000)]
         camelcase_slug = dash_to_camelcase(slug)
+        if not os.path.exists(f'collections/{slug}'):
+            print(f'making dir: collections/{slug}')
+            os.mkdir(f'collections/{slug}')
         for i, id_chunk in enumerate(id_chunks):
             ids_file = f'collections/{slug}/ids{i+1}.js'
             with open(ids_file, 'w') as f:
