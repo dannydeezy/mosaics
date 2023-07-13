@@ -7,7 +7,7 @@ The first 512 inscriptions that satisfy the following rules will be recognized a
 
 - Must be inscribed on an uncommon sat (or higher rarity)
 
-- 40% of earnings from initial sale must be pledged to holders of the tile inscriptions in the mosaic, and 10% must be pledged to the Ord core dev fund
+- Some of thearnings from the first sale of the piece must be pledged to hodlers of the inscriptions used, as well as to the Ord development fund
 
 ## How to generate a mosaic
 ```
