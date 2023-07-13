@@ -7,7 +7,7 @@ The first 512 inscriptions that satisfy the following rules will be recognized a
 
 - Must be inscribed on an uncommon sat (or higher rarity)
 
-- Some of thearnings from the first sale of the piece must be pledged to hodlers of the inscriptions used, as well as to the Ord development fund
+- Some of the earnings from the first sale of the piece must be pledged to hodlers of the inscriptions used, as well as to the Ord development fund
 
 ## How to generate a mosaic
 ```
