@@ -275,7 +275,7 @@ const orderedIdNums = """ + json.dumps(ordered_id_nums) + '''
 const urlParams = new Proxy(new URLSearchParams(window.location.search), {
     get: (searchParams, prop) => searchParams.get(prop),
 });
-let PREVIEW_WINDOW_WIDTH = 600
+let PREVIEW_WINDOW_WIDTH = 500
 if (urlParams.previewWindowWidth) {
     PREVIEW_WINDOW_WIDTH = parseInt(urlParams.previewWindowWidth) || PREVIEW_WINDOW_WIDTH
 }
