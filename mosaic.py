@@ -15,7 +15,7 @@ TILE_SIZE      = 50		# height/width of mosaic tiles in pixels
 TILE_MATCH_RES = 8		# tile matching resolution (higher values give better fit but require more processing)
 TILE_BLOCK_SIZE = TILE_SIZE / max(min(TILE_MATCH_RES, TILE_SIZE), 1)
 DIFF_RANDOM_VAR = 0
-MAX_OCCURRENCES_PER_TILE = 10
+MAX_OCCURRENCES_PER_TILE = 20
 if REPEAT in ('STRICT_NO', 'ALL_INCLUDED'):
 	WORKER_COUNT = 1 # max(cpu_count() - 1, 1)
 else:
@@ -205,29 +205,38 @@ class MosaicImage:
 	def save(self, path):
 		self.image.save(path)
 
-def get_scripts_from_slugs(content_base_url, slug_names):
+def get_scripts_from_slugs(content_base_url, slug_names, load_id_scripts):
 	script_info_str = ""
 	id_var_names = []
 	color_var_names = []
 	for slug in slug_names:
 		i = 0
 		camelcase_slug = dash_to_camelcase(slug)
-		info_file = open('./collections/{}/info.json'.format(slug))
-		info = json.load(info_file)
+		if load_id_scripts:
+			info_file = open('./collections/{}/info.json'.format(slug))
+			info = json.load(info_file)
 		while True:
 			i += 1
 			# TODO: replace script_path with the inscription id
 			id_file_path = './collections/{}/ids{}.js'.format(slug, i)
 			if not os.path.isfile(id_file_path):
 				break
-			ids_script_src = content_base_url + "/content/" + info["ids" + str(i)]
-			script_info_str += '<script src="{}"></script>\n'.format(ids_script_src)
+			if load_id_scripts:
+				ids_script_src = content_base_url + "/content/" + info["ids" + str(i)]
+				script_info_str += '<script src="{}"></script>\n'.format(ids_script_src)
+			else:
+				raw_js = open(id_file_path).read()
+				script_info_str += '<script>{}</script>\n'.format(raw_js)
 			var_name = camelcase_slug + 'Ids' + str(i)
 			id_var_names.append(var_name)
 		info_file.close()
 		colors_var_name = camelcase_slug + 'Colors'
-		colors_script_src = content_base_url + "/content/" + info["colors"]
-		script_info_str += '<script src="{}"></script>\n'.format(colors_script_src)
+		if load_id_scripts:
+			colors_script_src = content_base_url + "/content/" + info["colors"]
+			script_info_str += '<script src="{}"></script>\n'.format(colors_script_src)
+		else:
+			raw_js = open('./collections/{}/colors.js'.format(slug)).read()
+			script_info_str += '<script>{}</script>\n'.format(raw_js)
 		color_var_names.append(colors_var_name)
 	concat_str = 'const inscriptionIds = ' + id_var_names[0]
 	color_concat_str = 'const colors = ' + color_var_names[0]
@@ -237,8 +246,8 @@ def get_scripts_from_slugs(content_base_url, slug_names):
 		color_concat_str += '.concat(' + color_name + ')'
 	script_info_str += '<script>\n' + concat_str + ';\n' + color_concat_str + ';\n</script>\n'
 	return script_info_str
-def generate_html(ordered_id_nums, file_name, content_base_url, image_title, slug_names):
-	script_info_str = get_scripts_from_slugs(content_base_url, slug_names)
+def generate_html(ordered_id_nums, file_name, content_base_url, image_title, slug_names, load_id_scripts = True):
+	script_info_str = get_scripts_from_slugs(content_base_url, slug_names, load_id_scripts)
 	img_vw = 100 / NUM_TILES_PER_ROW
 	html = """
 <!DOCTYPE html>
@@ -403,8 +412,9 @@ def build_mosaic(result_queue, all_tile_data_large, original_img_large, file_nam
 			total_downloaded_bytes += ordered_file_sizes[i]
 		# position_dict[file_name]["p"].append(i)
 
-	generate_html(ordered_id_nums, "preview-do-not-inscribe.html", "https://ordinals.com", image_title, slug_names)
-	generate_html(ordered_id_nums, "mosaic.html", "", image_title, slug_names)
+	generate_html(ordered_id_nums, "preview-do-not-inscribe.html", "https://ordinals.com", image_title, slug_names, True)
+	generate_html(ordered_id_nums, "preview-do-not-inscribe-2.html", "https://ordinals.com", image_title, slug_names, False)
+	generate_html(ordered_id_nums, "mosaic.html", "", image_title, slug_names, True)
 	num_unique_tiles = len(position_dict)
 	print('Number of unique tiles:', num_unique_tiles)
 	print('Number of download bytes required:', total_downloaded_bytes)
