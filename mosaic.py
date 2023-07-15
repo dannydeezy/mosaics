@@ -45,8 +45,8 @@ class TileProcessor:
 			h_crop = (h - min_dimension) / 2
 			img = img.crop((w_crop, h_crop, w - w_crop, h - h_crop))
 
-			large_tile_img = img.resize((TILE_SIZE, TILE_SIZE), Image.ANTIALIAS)
-			small_tile_img = img.resize((int(TILE_SIZE/TILE_BLOCK_SIZE), int(TILE_SIZE/TILE_BLOCK_SIZE)), Image.ANTIALIAS)
+			large_tile_img = img.resize((TILE_SIZE, TILE_SIZE))
+			small_tile_img = img.resize((int(TILE_SIZE/TILE_BLOCK_SIZE), int(TILE_SIZE/TILE_BLOCK_SIZE)))
 			average_color_floats = ImageStat.Stat(img).mean
 			average_color = list(map(int, average_color_floats))
 			return (large_tile_img.convert('RGB'), small_tile_img.convert('RGB'), file_bytes, average_color)
@@ -91,7 +91,7 @@ class TargetImage:
 		# h = img.size[1]	* ENLARGEMENT
 		w = NUM_TILES_PER_ROW * TILE_SIZE
 		h = w
-		large_img = img.resize((w, h), Image.ANTIALIAS)
+		large_img = img.resize((w, h))
 		w_diff = (w % TILE_SIZE)/2
 		h_diff = (h % TILE_SIZE)/2
 		
@@ -99,7 +99,7 @@ class TargetImage:
 		if w_diff or h_diff:
 			large_img = large_img.crop((w_diff, h_diff, w - w_diff, h - h_diff))
 
-		small_img = large_img.resize((int(w/TILE_BLOCK_SIZE), int(h/TILE_BLOCK_SIZE)), Image.ANTIALIAS)
+		small_img = large_img.resize((int(w/TILE_BLOCK_SIZE), int(h/TILE_BLOCK_SIZE)))
 
 		image_data = (large_img.convert('RGB'), small_img.convert('RGB'))
 
