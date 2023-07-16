@@ -12,7 +12,7 @@ NUM_TILES_PER_ROW = 100
 RANDOM_RANGE = 0
 REPEAT = 'ALL_INCLUDED' # 'STRICT_NO', 'MINIMIZED', 'ALL_INCLUDED', 'OK',
 TILE_SIZE      = 50		# height/width of mosaic tiles in pixels
-TILE_MATCH_RES = 8		# tile matching resolution (higher values give better fit but require more processing)
+TILE_MATCH_RES = 10		# tile matching resolution (higher values give better fit but require more processing)
 TILE_BLOCK_SIZE = TILE_SIZE / max(min(TILE_MATCH_RES, TILE_SIZE), 1)
 DIFF_RANDOM_VAR = 0
 MAX_OCCURRENCES_PER_TILE = 10
@@ -62,19 +62,17 @@ class TileProcessor:
 
 		print('Reading tiles from {}...'.format(self.tiles_directory))
 
-		# step through each ids1.js, ids2.js etc in self.ids_directory
-		# search the tiles directory recursively - assumes tiles will be read in alphabetical order
-		for root, subFolders, files in os.walk(self.tiles_directory):
-			for tile_name in sorted(files):
-				print('Reading {:40.40}'.format(tile_name), flush=True, end='\r')
-				tile_path = os.path.join(root, tile_name)
-				large_tile, small_tile, size_bytes, average_color = self.__process_tile(tile_path)
-				if large_tile:
-					large_tiles.append(large_tile)
-					small_tiles.append(small_tile)
-					file_names.append(tile_name)
-					file_sizes.append(size_bytes)
-					average_colors.append(average_color)
+		files = os.listdir(self.tiles_directory)
+		for tile_name in sorted(files):
+			print('Reading {:40.40}'.format(tile_name), flush=True, end='\r')
+			tile_path = os.path.join(self.tiles_directory, tile_name)
+			large_tile, small_tile, size_bytes, average_color = self.__process_tile(tile_path)
+			if large_tile:
+				large_tiles.append(large_tile)
+				small_tiles.append(small_tile)
+				file_names.append(tile_name)
+				file_sizes.append(size_bytes)
+				average_colors.append(average_color)
 
 		print('Processed {} tiles.'.format(len(large_tiles)))
 
@@ -474,6 +472,7 @@ def mosaic(img_path, tiles_paths, image_title, slug_names):
 	tiles_data = ([], [], [], [], [])
 	for i in range(len(tiles_paths)):
 		tp = tiles_paths[i]
+		print('Processing tiles from {}...'.format(tp))
 		large_tiles, small_tiles, file_names, file_sizes, average_colors = TileProcessor(tp).get_tiles()
 		tiles_data[0].extend(large_tiles)
 		tiles_data[1].extend(small_tiles)
