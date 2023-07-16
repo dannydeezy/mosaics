@@ -27,17 +27,44 @@ def download_inscription_content(id, save_to_folder):
     else:
         print('Image Couldn\'t be retrieved')
 
+def fetch_ids_from_ow(slug):
+    print("Fetching ids from ordinals wallet for " + slug)
+    ordinalsWalletUrl = "https://raw.githubusercontent.com/ordinals-wallet/ordinals-collections/main/collections/" + slug + "/inscriptions.json"
+    print(ordinalsWalletUrl)
+    # get object response from url
+    resp = requests.get(ordinalsWalletUrl)
+    # convert json string to json object
+    data = json.loads(resp.text)
+    return [inscription["id"] for inscription in data]
+
+def fetch_ids_from_deezy(slug):
+    print("Fetching ids from deezy for " + slug)
+    deezy_slug = slug
+    if slug == "bitcoin-frogs":
+        deezy_slug = "bitcoin-frogs-v2"
+    elif slug == 'astralchads':
+        deezy_slug = 'astral-chads'
+    deezy_url = "https://raw.githubusercontent.com/dannydeezy/inscription-collection-registry/main/collections/" + deezy_slug + "/ids.csv"
+    try:
+        resp = requests.get(deezy_url)
+        resp.raise_for_status()
+    except:
+        print("Error fetching ids from deezy for " + slug)
+        return []
+    return resp.text.split('\n')
 def download_inscriptions(slugs):
     for slug in slugs:
+        # Sometimes ordinals wallet has incomplete list, so we check from two places.
         print("Downloading inscriptions for " + slug)
-        url = "https://raw.githubusercontent.com/ordinals-wallet/ordinals-collections/main/collections/" + slug + "/inscriptions.json"
-        print(url)
-        # get object response from url
-        resp = requests.get(url)
-        # convert json string to json object
-        data = json.loads(resp.text)
+        ow_ids = fetch_ids_from_ow(slug)
+        print("owIds: " + str(len(ow_ids)))
+        deezy_ids = fetch_ids_from_deezy(slug)
+        print("deezyIds: " + str(len(deezy_ids)))
+        ow_ids_set = set(ow_ids)
+        deezy_ids_set = set(deezy_ids)
+        missing_ids = deezy_ids_set - ow_ids_set
+        ids = ow_ids + list(missing_ids)
 
-        ids = [inscription["id"] for inscription in data]
         img_folder = IMG_DIR + '/' + slug
         if not os.path.exists(img_folder):
             os.mkdir(img_folder)
