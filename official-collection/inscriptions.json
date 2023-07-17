@@ -84,5 +84,22 @@
         }
       ]
     }
+  },
+  {
+    "id": "8db3554351a348f87e59e0e8f222a3b7029ae7b5abe8d93d8556dc6520c00261i0",
+    "meta": {
+      "name": "Banksy SS Gorilla",
+      "high_res_img_url": "https://cdn.discordapp.com/attachments/1071817730161901629/1130641674670973029/Banksy-SS-gorilla.png",
+      "attributes": [
+        {
+          "trait_type": "Tiles",
+          "value": "Astral Babes"
+        },
+        {
+          "trait_type": "Tiles",
+          "value": "Astral Chads"
+        }
+      ]
+    }
   }
 ]
