@@ -67,5 +67,22 @@
         }
       ]
     }
+  },
+  {
+    "id": "03fa107f244f0c4f5dad1d7d137f1060a43e20d73cf3621ae00571e08dc9104ei0",
+    "meta": {
+      "name": "Ordirobots",
+      "high_res_img_url": "https://cdn.discordapp.com/attachments/1071817730161901629/1130640801081335879/Ordirobots.png",
+      "attributes": [
+        {
+          "trait_type": "Tiles",
+          "value": "Astral Babes"
+        },
+        {
+          "trait_type": "Tiles",
+          "value": "Astral Chads"
+        }
+      ]
+    }
   }
 ]
