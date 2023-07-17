@@ -88,8 +88,93 @@
   {
     "id": "8db3554351a348f87e59e0e8f222a3b7029ae7b5abe8d93d8556dc6520c00261i0",
     "meta": {
-      "name": "Banksy SS Gorilla",
+      "name": "Banksy SS set1 Gorilla",
       "high_res_img_url": "https://cdn.discordapp.com/attachments/1071817730161901629/1130641674670973029/Banksy-SS-gorilla.png",
+      "attributes": [
+        {
+          "trait_type": "Tiles",
+          "value": "Astral Babes"
+        },
+        {
+          "trait_type": "Tiles",
+          "value": "Astral Chads"
+        }
+      ]
+    }
+  },
+  {
+    "id": "c202d3f4506a31d72a05be39d594ea6123f701ad6d0ab3e85c70c903ea8dab72i0",
+    "meta": {
+      "name": "Best astral babes i own",
+      "high_res_img_url": "https://cdn.discordapp.com/attachments/1077440087744327723/1130644298501718096/best_astral_babe_i_own-937.jpeg",
+      "attributes": [
+        {
+          "trait_type": "Tiles",
+          "value": "Astral Babes"
+        },
+        {
+          "trait_type": "Tiles",
+          "value": "Astral Chads"
+        }
+      ]
+    }
+  },
+  {
+    "id": "5c446fffe8ac9db344e6ac9b9f861e2ce10215c4c1c09552cb162b7c1926d06fi0",
+    "meta": {
+      "name": "Best chads i own",
+      "high_res_img_url": "https://cdn.discordapp.com/attachments/1077440087744327723/1130644689524105307/best_astral_chads_i_own-916.jpeg",
+      "attributes": [
+        {
+          "trait_type": "Tiles",
+          "value": "Astral Babes"
+        },
+        {
+          "trait_type": "Tiles",
+          "value": "Astral Chads"
+        }
+      ]
+    }
+  },
+  {
+    "id": "bdf6417cef3ba9488051d82c2db128eee7b190d03c8060bc855efd6c14960736i0",
+    "meta": {
+      "name": "SpZ wave shape angel",
+      "high_res_img_url": "https://cdn.discordapp.com/attachments/1077440087744327723/1130645545824829501/SpZ_wave_shape_angel-967.jpeg",
+      "attributes": [
+        {
+          "trait_type": "Tiles",
+          "value": "Astral Babes"
+        },
+        {
+          "trait_type": "Tiles",
+          "value": "Astral Chads"
+        }
+      ]
+    }
+  },
+  {
+    "id": "21ce4ab650815c69f5746ed08fa64cdd5d3c94160a6d7e62abfd9ced540ec837i0",
+    "meta": {
+      "name": "SpZ love asia Ninja ",
+      "high_res_img_url": "https://cdn.discordapp.com/attachments/1077440087744327723/1130645592842965073/SpZ_love_asia_Ninja-1108.jpeg",
+      "attributes": [
+        {
+          "trait_type": "Tiles",
+          "value": "Astral Babes"
+        },
+        {
+          "trait_type": "Tiles",
+          "value": "Astral Chads"
+        }
+      ]
+    }
+  },
+  {
+    "id": "b0a9bfbb27a15463f26fce30051629993225cd99a4d0443cb906cbccc49a157di0",
+    "meta": {
+      "name": "SpZ bybits",
+      "high_res_img_url": "https://cdn.discordapp.com/attachments/1077440087744327723/1130645621007716442/Bybits.909.last.jpeg",
       "attributes": [
         {
           "trait_type": "Tiles",
