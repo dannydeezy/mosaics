@@ -1,0 +1,71 @@
+[
+  {
+    "id": "d5270b1d5df4760dbbfe5a8746c12750d532ad2513905fafaecce913a5f25269i0",
+    "meta": {
+      "name": "Astral Desert",
+      "high_res_img_url": "https://cdn.discordapp.com/attachments/1071817730161901629/1130636403601055825/desert.jpeg",
+      "attributes": [
+        {
+          "trait_type": "Tiles",
+          "value": "Astral Babes"
+        },
+        {
+          "trait_type": "Tiles",
+          "value": "Astral Chads"
+        }
+      ]
+    }
+  },
+  {
+    "id": "ced67538a11c80a161a3038d0a7c2b7c47b1c9be53ebc32a415d41aac36baf6ai0",
+    "meta": {
+      "name": "Elements",
+      "high_res_img_url": "https://cdn.discordapp.com/attachments/1071817730161901629/1130636486262411294/elements.jpeg",
+      "attributes": [
+        {
+          "trait_type": "Tiles",
+          "value": "Astral Chads"
+        }
+      ]
+    }
+  },
+  {
+    "id": "4e4ecc1823e519e16eda98c921e0493e92a2205828da3be6b30a00cf71f52448i0",
+    "meta": {
+      "name": "We Are All Frogtoshi",
+      "high_res_img_url": "https://cdn.discordapp.com/attachments/1071817730161901629/1130636453936894023/frogtoshi.jpeg",
+      "attributes": [
+        {
+          "trait_type": "Tiles",
+          "value": "Bitcoin Frogs"
+        }
+      ]
+    }
+  },
+  {
+    "id": "0b552ace70262b2f8268f0a6e038891a2ef57f50ce5fb2fd523526941fc56489i0",
+    "meta": {
+      "name": "Punks",
+      "high_res_img_url": "https://cdn.discordapp.com/attachments/1071817730161901629/1130636508865495150/bpunks.jpeg",
+      "attributes": [
+        {
+          "trait_type": "Tiles",
+          "value": "Bitcoin Punks"
+        }
+      ]
+    }
+  },
+  {
+    "id": "97b9731cd8f88aaf11551f233d3f1d6e4896f82ffe0f0db108733bc62c01677ai0",
+    "meta": {
+      "name": "San Frogcisco",
+      "high_res_img_url": "https://cdn.discordapp.com/attachments/1071817730161901629/1130636540427649196/sanfrogcisco.jpeg",
+      "attributes": [
+        {
+          "trait_type": "Tiles",
+          "value": "Bitcoin Frogs"
+        }
+      ]
+    }
+  }
+]
