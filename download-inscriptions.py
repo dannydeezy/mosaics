@@ -89,6 +89,9 @@ def download_inscriptions(slugs):
             img = Image.open('images/' + slug + '/' + id)
             average_color_floats = ImageStat.Stat(img).mean
             average_color_ints = list(map(int, average_color_floats))
+            if len(average_color_ints) == 1:
+                print('Only got one grayscale value for image ' + id + ' in ' + slug + ', will extrapolate to RGB')
+                average_color_ints = [average_color_ints[0], average_color_ints[0], average_color_ints[0]]
             colors_list.append([average_color_ints[0], average_color_ints[1], average_color_ints[2]])
         colors_file = f'collections/{slug}/colors.js'
         with open(colors_file, 'w') as f:
