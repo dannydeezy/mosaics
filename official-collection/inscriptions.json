@@ -1,268 +1,268 @@
 [
-    {
-      "id": "d5270b1d5df4760dbbfe5a8746c12750d532ad2513905fafaecce913a5f25269i0",
-      "meta": {
-        "name": "Astral Desert",
-        "high_res_img_url": "https://cdn.discordapp.com/attachments/1071817730161901629/1130636403601055825/desert.jpeg",
-        "attributes": [
-          {
-            "trait_type": "Tiles",
-            "value": "Astral Babes"
-          },
-          {
-            "trait_type": "Tiles",
-            "value": "Astral Chads"
-          }
-        ]
-      }
-    },
-    {
-      "id": "ced67538a11c80a161a3038d0a7c2b7c47b1c9be53ebc32a415d41aac36baf6ai0",
-      "meta": {
-        "name": "Elements",
-        "high_res_img_url": "https://cdn.discordapp.com/attachments/1071817730161901629/1130636486262411294/elements.jpeg",
-        "attributes": [
-          {
-            "trait_type": "Tiles",
-            "value": "Astral Chads"
-          }
-        ]
-      }
-    },
-    {
-      "id": "4e4ecc1823e519e16eda98c921e0493e92a2205828da3be6b30a00cf71f52448i0",
-      "meta": {
-        "name": "We Are All Frogtoshi",
-        "high_res_img_url": "https://cdn.discordapp.com/attachments/1071817730161901629/1130636453936894023/frogtoshi.jpeg",
-        "attributes": [
-          {
-            "trait_type": "Tiles",
-            "value": "Bitcoin Frogs"
-          }
-        ]
-      }
-    },
-    {
-      "id": "0b552ace70262b2f8268f0a6e038891a2ef57f50ce5fb2fd523526941fc56489i0",
-      "meta": {
-        "name": "Punks",
-        "high_res_img_url": "https://cdn.discordapp.com/attachments/1071817730161901629/1130636508865495150/bpunks.jpeg",
-        "attributes": [
-          {
-            "trait_type": "Tiles",
-            "value": "Bitcoin Punks"
-          }
-        ]
-      }
-    },
-    {
-      "id": "97b9731cd8f88aaf11551f233d3f1d6e4896f82ffe0f0db108733bc62c01677ai0",
-      "meta": {
-        "name": "San Frogcisco",
-        "high_res_img_url": "https://cdn.discordapp.com/attachments/1071817730161901629/1130636540427649196/sanfrogcisco.jpeg",
-        "attributes": [
-          {
-            "trait_type": "Tiles",
-            "value": "Bitcoin Frogs"
-          }
-        ]
-      }
-    },
-    {
-      "id": "03fa107f244f0c4f5dad1d7d137f1060a43e20d73cf3621ae00571e08dc9104ei0",
-      "meta": {
-        "name": "Ordirobots",
-        "high_res_img_url": "https://cdn.discordapp.com/attachments/1071817730161901629/1130640801081335879/Ordirobots.png",
-        "attributes": [
-          {
-            "trait_type": "Tiles",
-            "value": "Astral Babes"
-          },
-          {
-            "trait_type": "Tiles",
-            "value": "Astral Chads"
-          }
-        ]
-      }
-    },
-    {
-      "id": "8db3554351a348f87e59e0e8f222a3b7029ae7b5abe8d93d8556dc6520c00261i0",
-      "meta": {
-        "name": "SpZ Gorilla",
-        "high_res_img_url": "https://cdn.discordapp.com/attachments/1071817730161901629/1130641674670973029/Banksy-SS-gorilla.png",
-        "attributes": [
-          {
-            "trait_type": "Tiles",
-            "value": "Astral Babes"
-          },
-          {
-            "trait_type": "Tiles",
-            "value": "Astral Chads"
-          }
-        ]
-      }
-    },
-    {
-      "id": "c202d3f4506a31d72a05be39d594ea6123f701ad6d0ab3e85c70c903ea8dab72i0",
-      "meta": {
-        "name": "SpZ Astral Babe",
-        "high_res_img_url": "https://cdn.discordapp.com/attachments/1077440087744327723/1130644298501718096/best_astral_babe_i_own-937.jpeg",
-        "attributes": [
-          {
-            "trait_type": "Tiles",
-            "value": "Astral Babes"
-          },
-          {
-            "trait_type": "Tiles",
-            "value": "Astral Chads"
-          }
-        ]
-      }
-    },
-    {
-      "id": "5c446fffe8ac9db344e6ac9b9f861e2ce10215c4c1c09552cb162b7c1926d06fi0",
-      "meta": {
-        "name": "SpZ Chad",
-        "high_res_img_url": "https://cdn.discordapp.com/attachments/1077440087744327723/1130644689524105307/best_astral_chads_i_own-916.jpeg",
-        "attributes": [
-          {
-            "trait_type": "Tiles",
-            "value": "Astral Babes"
-          },
-          {
-            "trait_type": "Tiles",
-            "value": "Astral Chads"
-          }
-        ]
-      }
-    },
-    {
-      "id": "bdf6417cef3ba9488051d82c2db128eee7b190d03c8060bc855efd6c14960736i0",
-      "meta": {
-        "name": "SpZ Wave Shape Angel",
-        "high_res_img_url": "https://cdn.discordapp.com/attachments/1077440087744327723/1130645545824829501/SpZ_wave_shape_angel-967.jpeg",
-        "attributes": [
-          {
-            "trait_type": "Tiles",
-            "value": "Astral Babes"
-          },
-          {
-            "trait_type": "Tiles",
-            "value": "Astral Chads"
-          }
-        ]
-      }
-    },
-    {
-      "id": "21ce4ab650815c69f5746ed08fa64cdd5d3c94160a6d7e62abfd9ced540ec837i0",
-      "meta": {
-        "name": "SpZ Love Asia Ninja",
-        "high_res_img_url": "https://cdn.discordapp.com/attachments/1077440087744327723/1130645592842965073/SpZ_love_asia_Ninja-1108.jpeg",
-        "attributes": [
-          {
-            "trait_type": "Tiles",
-            "value": "Astral Babes"
-          },
-          {
-            "trait_type": "Tiles",
-            "value": "Astral Chads"
-          }
-        ]
-      }
-    },
-    {
-      "id": "b0a9bfbb27a15463f26fce30051629993225cd99a4d0443cb906cbccc49a157di0",
-      "meta": {
-        "name": "SpZ Bybits",
-        "high_res_img_url": "https://cdn.discordapp.com/attachments/1077440087744327723/1130645621007716442/Bybits.909.last.jpeg",
-        "attributes": [
-          {
-            "trait_type": "Tiles",
-            "value": "Astral Babes"
-          },
-          {
-            "trait_type": "Tiles",
-            "value": "Astral Chads"
-          }
-        ]
-      }
-    },
-    {
-      "id": "441e071bf05bc8ae80c670cfae1dc16ec39773640dc573ef61843addc991dc9bi0",
-      "meta": {
-        "name": "Casey",
-        "high_res_img_url": "https://cdn.discordapp.com/attachments/1071817730161901629/1130724796016103494/casey.jpeg",
-        "attributes": [
-          {
-            "trait_type": "Tiles",
-            "value": "Bitcoin Punks"
-          }
-        ]
-      }
-    },
-    {
-      "id": "59a00e5da22aaf68fdc937747a6fc607e172ddcd24b7cd99295b53d2b85b7a87i0",
-      "meta": {
-        "name": "Julian",
-        "high_res_img_url": "https://cdn.discordapp.com/attachments/1071817730161901629/1130724834758897694/julian.jpeg",
-        "attributes": [
-          {
-            "trait_type": "Tiles",
-            "value": "Bitcoin Punks"
-          }
-        ]
-      }
-    },
-    {
-      "id": "343e88d1c23960bfab516a1530d2062ffa7f6e2becd6bc3dfb11629b4586541ci0",
-      "meta": {
-        "name": "Ross",
-        "high_res_img_url": "https://cdn.discordapp.com/attachments/1071817730161901629/1130724796695597137/ross.jpeg",
-        "attributes": [
-          {
-            "trait_type": "Tiles",
-            "value": "Bitcoin Punks"
-          }
-        ]
-      }
-    },
-    {
-      "id": "27afaea642d66aec60c59b7a7b1f54b8b66de0ce32c0514f7e482a495bcf11ebi0",
-      "meta": {
-        "name": "Punk Frog",
-        "high_res_img_url": "https://cdn.discordapp.com/attachments/1071817730161901629/1130724816006164550/punk-frog.jpeg",
-        "attributes": [
-          {
-            "trait_type": "Tiles",
-            "value": "Bitcoin Punks"
-          }
-        ]
-      }
-    },
-    {
-      "id": "ac024f0482e785b7ff5b54e637497407d6ed09ca6bc0c5e2bcf0f98a275c6893i0",
-      "meta": {
-        "name": "Glitched Machine",
-        "high_res_img_url": "https://cdn.discordapp.com/attachments/1072557305729654888/1131092496861118505/mosaic.jpg",
-        "attributes": [
-          {
-            "trait_type": "Tiles",
-            "value": "BTC Machines"
-          }
-        ]
-      }
-    },
-    {
-      "id": "3f723f19c7857258ee69e98bb6bdccf4a7d53c63865e08c46c2881cafe1c98b7i0",
-      "meta": {
-        "name": "Mutant Virus",
-        "high_res_img_url": "https://cdn.discordapp.com/attachments/1072557305729654888/1131092516565958688/mosaic.jpg",
-        "attributes": [
-          {
-            "trait_type": "Tiles",
-            "value": "BTC Virus"
-          }
-        ]
-      }
+ {
+    "id": "d5270b1d5df4760dbbfe5a8746c12750d532ad2513905fafaecce913a5f25269i0",
+    "meta": {
+      "name": "Astral Desert",
+      "high_res_img_url": "https://cdn.discordapp.com/attachments/1071817730161901629/1130636403601055825/desert.jpeg",
+      "attributes": [
+        {
+          "trait_type": "Tiles",
+          "value": "Astral Babes"
+        },
+        {
+          "trait_type": "Tiles",
+          "value": "Astral Chads"
+        }
+      ]
     }
-  ]
+  },
+  {
+    "id": "ced67538a11c80a161a3038d0a7c2b7c47b1c9be53ebc32a415d41aac36baf6ai0",
+    "meta": {
+      "name": "Elements",
+      "high_res_img_url": "https://cdn.discordapp.com/attachments/1071817730161901629/1130636486262411294/elements.jpeg",
+      "attributes": [
+        {
+          "trait_type": "Tiles",
+          "value": "Astral Chads"
+        }
+      ]
+    }
+  },
+  {
+    "id": "4e4ecc1823e519e16eda98c921e0493e92a2205828da3be6b30a00cf71f52448i0",
+    "meta": {
+      "name": "We Are All Frogtoshi",
+      "high_res_img_url": "https://cdn.discordapp.com/attachments/1071817730161901629/1130636453936894023/frogtoshi.jpeg",
+      "attributes": [
+        {
+          "trait_type": "Tiles",
+          "value": "Bitcoin Frogs"
+        }
+      ]
+    }
+  },
+  {
+    "id": "0b552ace70262b2f8268f0a6e038891a2ef57f50ce5fb2fd523526941fc56489i0",
+    "meta": {
+      "name": "Punks",
+      "high_res_img_url": "https://cdn.discordapp.com/attachments/1071817730161901629/1130636508865495150/bpunks.jpeg",
+      "attributes": [
+        {
+          "trait_type": "Tiles",
+          "value": "Bitcoin Punks"
+        }
+      ]
+    }
+  },
+  {
+    "id": "97b9731cd8f88aaf11551f233d3f1d6e4896f82ffe0f0db108733bc62c01677ai0",
+    "meta": {
+      "name": "San Frogcisco",
+      "high_res_img_url": "https://cdn.discordapp.com/attachments/1071817730161901629/1130636540427649196/sanfrogcisco.jpeg",
+      "attributes": [
+        {
+          "trait_type": "Tiles",
+          "value": "Bitcoin Frogs"
+        }
+      ]
+    }
+  },
+  {
+    "id": "03fa107f244f0c4f5dad1d7d137f1060a43e20d73cf3621ae00571e08dc9104ei0",
+    "meta": {
+      "name": "Ordirobots",
+      "high_res_img_url": "https://cdn.discordapp.com/attachments/1071817730161901629/1130640801081335879/Ordirobots.png",
+      "attributes": [
+        {
+          "trait_type": "Tiles",
+          "value": "Astral Babes"
+        },
+        {
+          "trait_type": "Tiles",
+          "value": "Astral Chads"
+        }
+      ]
+    }
+  },
+  {
+    "id": "8db3554351a348f87e59e0e8f222a3b7029ae7b5abe8d93d8556dc6520c00261i0",
+    "meta": {
+      "name": "SpZ Gorilla",
+      "high_res_img_url": "https://cdn.discordapp.com/attachments/1071817730161901629/1130641674670973029/Banksy-SS-gorilla.png",
+      "attributes": [
+        {
+          "trait_type": "Tiles",
+          "value": "Astral Babes"
+        },
+        {
+          "trait_type": "Tiles",
+          "value": "Astral Chads"
+        }
+      ]
+    }
+  },
+  {
+    "id": "c202d3f4506a31d72a05be39d594ea6123f701ad6d0ab3e85c70c903ea8dab72i0",
+    "meta": {
+      "name": "SpZ Astral Babe",
+      "high_res_img_url": "https://cdn.discordapp.com/attachments/1077440087744327723/1130644298501718096/best_astral_babe_i_own-937.jpeg",
+      "attributes": [
+        {
+          "trait_type": "Tiles",
+          "value": "Astral Babes"
+        },
+        {
+          "trait_type": "Tiles",
+          "value": "Astral Chads"
+        }
+      ]
+    }
+  },
+  {
+    "id": "5c446fffe8ac9db344e6ac9b9f861e2ce10215c4c1c09552cb162b7c1926d06fi0",
+    "meta": {
+      "name": "SpZ Chad",
+      "high_res_img_url": "https://cdn.discordapp.com/attachments/1077440087744327723/1130644689524105307/best_astral_chads_i_own-916.jpeg",
+      "attributes": [
+        {
+          "trait_type": "Tiles",
+          "value": "Astral Babes"
+        },
+        {
+          "trait_type": "Tiles",
+          "value": "Astral Chads"
+        }
+      ]
+    }
+  },
+  {
+    "id": "bdf6417cef3ba9488051d82c2db128eee7b190d03c8060bc855efd6c14960736i0",
+    "meta": {
+      "name": "SpZ Wave Shape Angel",
+      "high_res_img_url": "https://cdn.discordapp.com/attachments/1077440087744327723/1130645545824829501/SpZ_wave_shape_angel-967.jpeg",
+      "attributes": [
+        {
+          "trait_type": "Tiles",
+          "value": "Astral Babes"
+        },
+        {
+          "trait_type": "Tiles",
+          "value": "Astral Chads"
+        }
+      ]
+    }
+  },
+  {
+    "id": "21ce4ab650815c69f5746ed08fa64cdd5d3c94160a6d7e62abfd9ced540ec837i0",
+    "meta": {
+      "name": "SpZ Love Asia Ninja",
+      "high_res_img_url": "https://cdn.discordapp.com/attachments/1077440087744327723/1130645592842965073/SpZ_love_asia_Ninja-1108.jpeg",
+      "attributes": [
+        {
+          "trait_type": "Tiles",
+          "value": "Astral Babes"
+        },
+        {
+          "trait_type": "Tiles",
+          "value": "Astral Chads"
+        }
+      ]
+    }
+  },
+  {
+    "id": "b0a9bfbb27a15463f26fce30051629993225cd99a4d0443cb906cbccc49a157di0",
+    "meta": {
+      "name": "SpZ Bybits",
+      "high_res_img_url": "https://cdn.discordapp.com/attachments/1077440087744327723/1130645621007716442/Bybits.909.last.jpeg",
+      "attributes": [
+        {
+          "trait_type": "Tiles",
+          "value": "Astral Babes"
+        },
+        {
+          "trait_type": "Tiles",
+          "value": "Astral Chads"
+        }
+      ]
+    }
+  },
+  {
+    "id": "441e071bf05bc8ae80c670cfae1dc16ec39773640dc573ef61843addc991dc9bi0",
+    "meta": {
+      "name": "Casey",
+      "high_res_img_url": "https://cdn.discordapp.com/attachments/1071817730161901629/1130724796016103494/casey.jpeg",
+      "attributes": [
+        {
+          "trait_type": "Tiles",
+          "value": "Bitcoin Punks"
+        }
+      ]
+    }
+  },
+  {
+    "id": "59a00e5da22aaf68fdc937747a6fc607e172ddcd24b7cd99295b53d2b85b7a87i0",
+    "meta": {
+      "name": "Julian",
+      "high_res_img_url": "https://cdn.discordapp.com/attachments/1071817730161901629/1130724834758897694/julian.jpeg",
+      "attributes": [
+        {
+          "trait_type": "Tiles",
+          "value": "Bitcoin Punks"
+        }
+      ]
+    }
+  },
+  {
+    "id": "343e88d1c23960bfab516a1530d2062ffa7f6e2becd6bc3dfb11629b4586541ci0",
+    "meta": {
+      "name": "Ross",
+      "high_res_img_url": "https://cdn.discordapp.com/attachments/1071817730161901629/1130724796695597137/ross.jpeg",
+      "attributes": [
+        {
+          "trait_type": "Tiles",
+          "value": "Bitcoin Punks"
+        }
+      ]
+    }
+  },
+  {
+    "id": "27afaea642d66aec60c59b7a7b1f54b8b66de0ce32c0514f7e482a495bcf11ebi0",
+    "meta": {
+      "name": "Punk Frog",
+      "high_res_img_url": "https://cdn.discordapp.com/attachments/1071817730161901629/1130724816006164550/punk-frog.jpeg",
+      "attributes": [
+        {
+          "trait_type": "Tiles",
+          "value": "Bitcoin Punks"
+        }
+      ]
+    }
+  },
+  {
+    "id": "ac024f0482e785b7ff5b54e637497407d6ed09ca6bc0c5e2bcf0f98a275c6893i0",
+    "meta": {
+      "name": "Glitched Machine",
+      "high_res_img_url": "https://cdn.discordapp.com/attachments/1072557305729654888/1131092496861118505/mosaic.jpg",
+      "attributes": [
+        {
+          "trait_type": "Tiles",
+          "value": "BTC Machines"
+        }
+      ]
+    }
+  },
+  {
+    "id": "3f723f19c7857258ee69e98bb6bdccf4a7d53c63865e08c46c2881cafe1c98b7i0",
+    "meta": {
+      "name": "Mutant Virus",
+      "high_res_img_url": "https://cdn.discordapp.com/attachments/1072557305729654888/1131092516565958688/mosaic.jpg",
+      "attributes": [
+        {
+          "trait_type": "Tiles",
+          "value": "BTC Virus"
+        }
+      ]
+    }
+  }
+]
