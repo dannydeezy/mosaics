@@ -12,6 +12,10 @@
         {
           "trait_type": "Tiles",
           "value": "Astral Chads"
+        },
+        {
+          "trait_type": "Creator",
+          "value": "Deezy"
         }
       ]
     }
@@ -25,6 +29,10 @@
         {
           "trait_type": "Tiles",
           "value": "Astral Chads"
+        },
+        {
+          "trait_type": "Creator",
+          "value": "Deezy"
         }
       ]
     }
@@ -38,6 +46,10 @@
         {
           "trait_type": "Tiles",
           "value": "Bitcoin Frogs"
+        },
+        {
+          "trait_type": "Creator",
+          "value": "Deezy"
         }
       ]
     }
@@ -51,6 +63,10 @@
         {
           "trait_type": "Tiles",
           "value": "Bitcoin Punks"
+        },
+        {
+          "trait_type": "Creator",
+          "value": "Deezy"
         }
       ]
     }
@@ -64,6 +80,10 @@
         {
           "trait_type": "Tiles",
           "value": "Bitcoin Frogs"
+        },
+        {
+          "trait_type": "Creator",
+          "value": "Deezy"
         }
       ]
     }
@@ -81,6 +101,10 @@
         {
           "trait_type": "Tiles",
           "value": "Astral Chads"
+        },
+        {
+          "trait_type": "Creator",
+          "value": "SpZ Julien"
         }
       ]
     }
@@ -98,6 +122,10 @@
         {
           "trait_type": "Tiles",
           "value": "Astral Chads"
+        },
+        {
+          "trait_type": "Creator",
+          "value": "SpZ Julien"
         }
       ]
     }
@@ -115,6 +143,10 @@
         {
           "trait_type": "Tiles",
           "value": "Astral Chads"
+        },
+        {
+          "trait_type": "Creator",
+          "value": "SpZ Julien"
         }
       ]
     }
@@ -132,6 +164,10 @@
         {
           "trait_type": "Tiles",
           "value": "Astral Chads"
+        },
+        {
+          "trait_type": "Creator",
+          "value": "SpZ Julien"
         }
       ]
     }
@@ -149,6 +185,10 @@
         {
           "trait_type": "Tiles",
           "value": "Astral Chads"
+        },
+        {
+          "trait_type": "Creator",
+          "value": "SpZ Julien"
         }
       ]
     }
@@ -166,6 +206,10 @@
         {
           "trait_type": "Tiles",
           "value": "Astral Chads"
+        },
+        {
+          "trait_type": "Creator",
+          "value": "SpZ Julien"
         }
       ]
     }
@@ -183,6 +227,10 @@
         {
           "trait_type": "Tiles",
           "value": "Astral Chads"
+        },
+        {
+          "trait_type": "Creator",
+          "value": "SpZ Julien"
         }
       ]
     }
@@ -196,6 +244,10 @@
         {
           "trait_type": "Tiles",
           "value": "Bitcoin Punks"
+        },
+        {
+          "trait_type": "Creator",
+          "value": "Deezy"
         }
       ]
     }
@@ -209,6 +261,10 @@
         {
           "trait_type": "Tiles",
           "value": "Bitcoin Punks"
+        },
+        {
+          "trait_type": "Creator",
+          "value": "Deezy"
         }
       ]
     }
@@ -222,6 +278,10 @@
         {
           "trait_type": "Tiles",
           "value": "Bitcoin Punks"
+        },
+        {
+          "trait_type": "Creator",
+          "value": "Deezy"
         }
       ]
     }
@@ -235,6 +295,10 @@
         {
           "trait_type": "Tiles",
           "value": "Bitcoin Punks"
+        },
+        {
+          "trait_type": "Creator",
+          "value": "Deezy"
         }
       ]
     }
@@ -248,6 +312,10 @@
         {
           "trait_type": "Tiles",
           "value": "BTC Machines"
+        },
+        {
+          "trait_type": "Creator",
+          "value": "BTC Machine"
         }
       ]
     }
@@ -260,6 +328,10 @@
       "attributes": [
         {
           "trait_type": "Tiles",
+          "value": "BTC Virus"
+        },
+        {
+          "trait_type": "Creator",
           "value": "BTC Virus"
         }
       ]
