@@ -1,5 +1,5 @@
 [
-  {
+ {
     "id": "d5270b1d5df4760dbbfe5a8746c12750d532ad2513905fafaecce913a5f25269i0",
     "meta": {
       "name": "Astral Desert",
@@ -235,6 +235,32 @@
         {
           "trait_type": "Tiles",
           "value": "Bitcoin Punks"
+        }
+      ]
+    }
+  },
+  {
+    "id": "ac024f0482e785b7ff5b54e637497407d6ed09ca6bc0c5e2bcf0f98a275c6893i0",
+    "meta": {
+      "name": "Glitched Machine",
+      "high_res_img_url": "https://cdn.discordapp.com/attachments/1072557305729654888/1131092496861118505/mosaic.jpg",
+      "attributes": [
+        {
+          "trait_type": "Tiles",
+          "value": "BTC Machines"
+        }
+      ]
+    }
+  },
+  {
+    "id": "3f723f19c7857258ee69e98bb6bdccf4a7d53c63865e08c46c2881cafe1c98b7i0",
+    "meta": {
+      "name": "Mutant Virus",
+      "high_res_img_url": "https://cdn.discordapp.com/attachments/1072557305729654888/1131092516565958688/mosaic.jpg",
+      "attributes": [
+        {
+          "trait_type": "Tiles",
+          "value": "BTC Virus"
         }
       ]
     }
