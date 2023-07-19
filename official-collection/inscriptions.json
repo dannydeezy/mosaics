@@ -336,5 +336,22 @@
         }
       ]
     }
+  },
+  {
+    "id": "a7ce31443a3ed3dfaef8f3ce6ac797b6d31900ec2ebc522a73297614713978bai0",
+    "meta": {
+      "name": "Singularity Adalyn",
+      "high_res_img_url": "https://cdn.discordapp.com/attachments/1129525699867312219/1131084882932678687/mosaic.jpeg",
+      "attributes": [
+        {
+          "trait_type": "Tiles",
+          "value": "Astral Babes"
+        },
+        {
+          "trait_type": "Creator",
+          "value": "Machine98"
+        }
+      ]
+     }
   }
 ]
