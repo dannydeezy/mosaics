@@ -353,5 +353,66 @@
         }
       ]
      }
-  }
+  },
+{
+     "id": "12a117a82593c65c4776d81ecf0ce8a30a06d79a042ff5c6f0e9976eb7760748i0",
+     "meta": {
+       "name": "Inscription 0",
+       "high_res_img_url": "https://cdn.discordapp.com/attachments/1077440087744327723/1131866470259896350/SpZ_Inscription_0-707.jpeg",
+       "attributes": [
+         {
+           "trait_type": "Tiles",
+           "value": "ordirobots"
+         },
+         {
+          "trait_type": "Tiles",
+          "value": "spzasia"
+        },
+        {
+          "trait_type": "Tiles",
+          "value": "spzshape"
+        },
+        {
+          "trait_type": "Tiles",
+          "value": "Astral Chads"
+        },
+        {
+          "trait_type": "Tiles",
+          "value": "Astral Babes"
+        },
+        {
+          "trait_type": "Tiles",
+          "value": "bitcoin-frogs"
+        },
+        {
+          "trait_type": "Tiles",
+          "value": "ordinal-fomojis"
+        },
+        {
+          "trait_type": "Tiles",
+          "value": "degods"
+        },
+        {
+          "trait_type": "Tiles",
+          "value": "btc-machines"
+        },
+        {
+          "trait_type": "Tiles",
+          "value": "cypherglyphs"
+        },
+         {
+          "trait_type": "Tiles",
+          "value": "ordinal-mimi"
+        },
+        {
+          "trait_type": "Tiles",
+          "value": "bitcoinpunks"
+        },
+        {
+           "trait_type": "Creator",
+           "value": "SpZ Julien"
+         }
+       ]
+      }
+   }
 ]
