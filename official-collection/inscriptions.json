@@ -354,7 +354,7 @@
       ]
      }
   },
-  {
+   {
      "id": "12a117a82593c65c4776d81ecf0ce8a30a06d79a042ff5c6f0e9976eb7760748i0",
      "meta": {
        "name": "Inscription 0",
@@ -362,15 +362,15 @@
        "attributes": [
          {
            "trait_type": "Tiles",
-           "value": "ordirobots"
+           "value": "Ordirobots"
          },
          {
           "trait_type": "Tiles",
-          "value": "spzasia"
+          "value": "SpZ Love Asia"
         },
         {
           "trait_type": "Tiles",
-          "value": "spzshape"
+          "value": "SpZ Shape"
         },
         {
           "trait_type": "Tiles",
@@ -382,35 +382,35 @@
         },
         {
           "trait_type": "Tiles",
-          "value": "bitcoin-frogs"
+          "value": "Bitcoin Frogs"
         },
         {
           "trait_type": "Tiles",
-          "value": "ordinal-fomojis"
+          "value": "Ordinal Fomojis"
         },
         {
           "trait_type": "Tiles",
-          "value": "millennial-colors"
+          "value": "Millennial Colors"
         },
         {
           "trait_type": "Tiles",
-          "value": "degods"
+          "value": "Degods"
         },
         {
           "trait_type": "Tiles",
-          "value": "btc-machines"
+          "value": "BTC Machines"
         },
         {
           "trait_type": "Tiles",
-          "value": "cypherglyphs"
+          "value": "Cypherglyphs"
         },
          {
           "trait_type": "Tiles",
-          "value": "ordinal-mimi"
+          "value": "Ordinal Mimi"
         },
         {
           "trait_type": "Tiles",
-          "value": "bitcoinpunks"
+          "value": "Bitcoin Punks"
         },
         {
            "trait_type": "Creator",
@@ -422,20 +422,20 @@
    {
      "id": "58b305aaddc72a737220b41c4483558bdb796fe8e7a2a62e9c4ea50755b1a62ei0",
      "meta": {
-       "name": "SpZ Sushi",
+       "name": "SpZjulien Sushi",
        "high_res_img_url": "https://cdn.discordapp.com/attachments/1077440087744327723/1131883746430300182/SpZ_sushi-1376.jpeg",
        "attributes": [
          {
            "trait_type": "Tiles",
-           "value": "ordirobots"
+           "value": "Ordirobots"
          },
          {
           "trait_type": "Tiles",
-          "value": "spzasia"
+          "value": "SpZ Love Asia"
         },
         {
           "trait_type": "Tiles",
-          "value": "spzshape"
+          "value": "SpZ Shape"
         },
         {
           "trait_type": "Tiles",
@@ -447,35 +447,35 @@
         },
         {
           "trait_type": "Tiles",
-          "value": "bitcoin-frogs"
+          "value": "Bitcoin Frogs"
         },
         {
           "trait_type": "Tiles",
-          "value": "ordinal-fomojis"
+          "value": "Ordinal Fomojis"
         },
         {
           "trait_type": "Tiles",
-          "value": "millennial-colors"
+          "value": "Millennial Colors"
         },
         {
           "trait_type": "Tiles",
-          "value": "degods"
+          "value": "Degods"
         },
         {
           "trait_type": "Tiles",
-          "value": "btc-machines"
+          "value": "BTC Machines"
         },
         {
           "trait_type": "Tiles",
-          "value": "cypherglyphs"
+          "value": "Cypherglyphs"
         },
          {
           "trait_type": "Tiles",
-          "value": "ordinal-mimi"
+          "value": "Ordinal Mimi"
         },
         {
           "trait_type": "Tiles",
-          "value": "bitcoinpunks"
+          "value": "Bitcoin Punks"
         },
         {
            "trait_type": "Creator",
