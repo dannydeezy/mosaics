@@ -1,5 +1,5 @@
 [
- {
+  {
     "id": "d5270b1d5df4760dbbfe5a8746c12750d532ad2513905fafaecce913a5f25269i0",
     "meta": {
       "name": "Astral Desert",
@@ -352,19 +352,19 @@
           "value": "Machine98"
         }
       ]
-     }
+    }
   },
-   {
-     "id": "12a117a82593c65c4776d81ecf0ce8a30a06d79a042ff5c6f0e9976eb7760748i0",
-     "meta": {
-       "name": "Inscription 0",
-       "high_res_img_url": "https://cdn.discordapp.com/attachments/1077440087744327723/1131866470259896350/SpZ_Inscription_0-707.jpeg",
-       "attributes": [
-         {
-           "trait_type": "Tiles",
-           "value": "Ordirobots"
-         },
-         {
+  {
+    "id": "12a117a82593c65c4776d81ecf0ce8a30a06d79a042ff5c6f0e9976eb7760748i0",
+    "meta": {
+      "name": "Inscription 0",
+      "high_res_img_url": "https://cdn.discordapp.com/attachments/1077440087744327723/1131866470259896350/SpZ_Inscription_0-707.jpeg",
+      "attributes": [
+        {
+          "trait_type": "Tiles",
+          "value": "Ordirobots"
+        },
+        {
           "trait_type": "Tiles",
           "value": "SpZ Love Asia"
         },
@@ -404,7 +404,7 @@
           "trait_type": "Tiles",
           "value": "Cypherglyphs"
         },
-         {
+        {
           "trait_type": "Tiles",
           "value": "Ordinal Mimi"
         },
@@ -413,23 +413,23 @@
           "value": "Bitcoin Punks"
         },
         {
-           "trait_type": "Creator",
-           "value": "SpZ Julien"
-         }
-       ]
-      }
-   },
-   {
-     "id": "58b305aaddc72a737220b41c4483558bdb796fe8e7a2a62e9c4ea50755b1a62ei0",
-     "meta": {
-       "name": "SpZjulien Sushi",
-       "high_res_img_url": "https://cdn.discordapp.com/attachments/1077440087744327723/1131883746430300182/SpZ_sushi-1376.jpeg",
-       "attributes": [
-         {
-           "trait_type": "Tiles",
-           "value": "Ordirobots"
-         },
-         {
+          "trait_type": "Creator",
+          "value": "SpZ Julien"
+        }
+      ]
+    }
+  },
+  {
+    "id": "58b305aaddc72a737220b41c4483558bdb796fe8e7a2a62e9c4ea50755b1a62ei0",
+    "meta": {
+      "name": "SpZjulien Sushi",
+      "high_res_img_url": "https://cdn.discordapp.com/attachments/1077440087744327723/1131883746430300182/SpZ_sushi-1376.jpeg",
+      "attributes": [
+        {
+          "trait_type": "Tiles",
+          "value": "Ordirobots"
+        },
+        {
           "trait_type": "Tiles",
           "value": "SpZ Love Asia"
         },
@@ -469,7 +469,7 @@
           "trait_type": "Tiles",
           "value": "Cypherglyphs"
         },
-         {
+        {
           "trait_type": "Tiles",
           "value": "Ordinal Mimi"
         },
@@ -478,10 +478,61 @@
           "value": "Bitcoin Punks"
         },
         {
-           "trait_type": "Creator",
-           "value": "SpZ Julien"
-         }
-       ]
-      }
-   }
+          "trait_type": "Creator",
+          "value": "SpZ Julien"
+        }
+      ]
+    }
+  },
+  {
+    "id": "232035152a9e6b8da62ee022a77a2c95479857fba39ddb932feb802b0df2cecei0",
+    "meta": {
+      "name": "New Genesis",
+      "high_res_img_url": "https://cdn.discordapp.com/attachments/1131405859314999336/1132043490914746418/mosaic.jpeg",
+      "attributes": [
+        {
+          "trait_type": "Tiles",
+          "value": "BTC Machines"
+        },
+        {
+          "trait_type": "Creator",
+          "value": "BTC Machine #50"
+        }
+      ]
+    }
+  },
+  {
+    "id": "21fb75209f34811f790ab9245a2ce2d581d40f7636f8c257b69e067f51df4623i0",
+    "meta": {
+      "name": "Gaming Tort Machine",
+      "high_res_img_url": "https://media.discordapp.net/attachments/1131406925318344705/1131806592120148129/mosaic.jpeg",
+      "attributes": [
+        {
+          "trait_type": "Tiles",
+          "value": "BTC Machines"
+        },
+        {
+          "trait_type": "Creator",
+          "value": "Elem"
+        }
+      ]
+    }
+  },
+  {
+    "id": "6e355c626a604c0abf8ff29a8500870332bda90d53693407b60c1e180f18748ei0",
+    "meta": {
+      "name": "Franken Machine",
+      "high_res_img_url": "https://media.discordapp.net/attachments/1131424446180233306/1133963329375842366/mosaic.jpeg",
+      "attributes": [
+        {
+          "trait_type": "Tiles",
+          "value": "BTC Machines"
+        },
+        {
+          "trait_type": "Creator",
+          "value": "zZoobs"
+        }
+      ]
+    }
+  }
 ]
